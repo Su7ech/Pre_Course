@@ -1,0 +1,6 @@
+ArgumentError: wrong number of arguments (1 for 2)
+  from (irb):1:in `calculate_product'
+  from (irb):4
+  from /Users/username/.rvm/rubies/ruby-2.0.0-p353/bin/irb:12:in `<main>'
+
+We're trying to call a method called calculate_product that requires two arugments, but you are only providing one.
